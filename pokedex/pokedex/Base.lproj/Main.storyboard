@@ -20,10 +20,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WwU-gA-oyh">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="59"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="50"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pokédex" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywe-7R-MfO">
-                                                <rect key="frame" x="134" y="5" width="146" height="48"/>
+                                                <rect key="frame" x="134" y="1" width="146" height="48"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -31,19 +31,25 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstItem="ywe-7R-MfO" firstAttribute="top" secondItem="WwU-gA-oyh" secondAttribute="top" constant="5" id="Bhf-gJ-mVz"/>
-                                            <constraint firstItem="ywe-7R-MfO" firstAttribute="leading" secondItem="WwU-gA-oyh" secondAttribute="leading" constant="134" id="MZc-Lt-bF2"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ywe-7R-MfO" secondAttribute="trailing" constant="20" symbolic="YES" id="uxi-Bp-TF9"/>
+                                            <constraint firstItem="ywe-7R-MfO" firstAttribute="centerX" secondItem="WwU-gA-oyh" secondAttribute="centerX" id="AzC-2M-iLk"/>
+                                            <constraint firstItem="ywe-7R-MfO" firstAttribute="centerY" secondItem="WwU-gA-oyh" secondAttribute="centerY" id="MjA-jx-aWS"/>
+                                            <constraint firstAttribute="height" constant="50" id="vYX-it-4tz"/>
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="6lJ-cm-YSD">
-                                        <rect key="frame" x="0.0" y="66" width="414" height="34"/>
+                                        <rect key="frame" x="0.0" y="57" width="414" height="41.666666666666657"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="41.670000000000002" id="BWM-xL-sLQ"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1 Pokémon encontrado" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tap-N5-bue">
-                                        <rect key="frame" x="0.0" y="107" width="414" height="20.333333333333329"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <rect key="frame" x="0.0" y="105.66666666666667" width="414" height="21.666666666666671"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="21.670000000000002" id="Yun-O7-488"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -102,17 +108,16 @@
                                 <constraints>
                                     <constraint firstItem="Tap-N5-bue" firstAttribute="top" secondItem="6lJ-cm-YSD" secondAttribute="bottom" constant="7" id="5pn-xj-lBX"/>
                                     <constraint firstItem="6lJ-cm-YSD" firstAttribute="top" secondItem="WwU-gA-oyh" secondAttribute="bottom" constant="7" id="C9s-tq-DVb"/>
-                                    <constraint firstItem="WwU-gA-oyh" firstAttribute="top" secondItem="iIb-4E-nn0" secondAttribute="top" id="WFq-t4-J73"/>
                                     <constraint firstItem="pHe-27-rgD" firstAttribute="top" secondItem="Tap-N5-bue" secondAttribute="bottom" constant="7" id="tt8-m0-mbs"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="iIb-4E-nn0" firstAttribute="bottom" secondItem="SLw-Qg-zGn" secondAttribute="bottom" id="4lJ-P0-Dwa"/>
-                            <constraint firstItem="iIb-4E-nn0" firstAttribute="leading" secondItem="SLw-Qg-zGn" secondAttribute="leading" id="8mw-3a-l4p"/>
-                            <constraint firstItem="iIb-4E-nn0" firstAttribute="trailing" secondItem="SLw-Qg-zGn" secondAttribute="trailing" id="EMS-ej-diJ"/>
-                            <constraint firstItem="iIb-4E-nn0" firstAttribute="top" secondItem="SLw-Qg-zGn" secondAttribute="top" id="Jht-Vp-G3D"/>
+                            <constraint firstItem="iIb-4E-nn0" firstAttribute="trailing" secondItem="SLw-Qg-zGn" secondAttribute="trailing" id="0qV-L4-8Q5"/>
+                            <constraint firstItem="iIb-4E-nn0" firstAttribute="bottom" secondItem="SLw-Qg-zGn" secondAttribute="bottom" id="XoG-NB-5tp"/>
+                            <constraint firstItem="iIb-4E-nn0" firstAttribute="leading" secondItem="SLw-Qg-zGn" secondAttribute="leading" id="ZVa-Fh-wmV"/>
+                            <constraint firstItem="iIb-4E-nn0" firstAttribute="top" secondItem="SLw-Qg-zGn" secondAttribute="top" id="jo3-vl-eXC"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="SLw-Qg-zGn"/>
                     </view>
