@@ -12,6 +12,8 @@ class HomeViewController: UIViewController, UICollectionViewDataSource {
     
     @IBOutlet weak var searchBox: UITextField!
     
+    
+    
     @IBOutlet weak var pokeColletion: UICollectionView!
     
     var pokeList: Array<Pokemon> = PokeDAO().getAllPokemon()
