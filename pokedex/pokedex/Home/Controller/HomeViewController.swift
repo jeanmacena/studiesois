@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomeViewController: UIViewController, UICollectionViewDataSource {
+class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet weak var searchBox: UITextField!
     
@@ -22,10 +22,11 @@ class HomeViewController: UIViewController, UICollectionViewDataSource {
     override func viewDidLoad() {
         super.viewDidLoad()
         pokeColletion.dataSource = self
+        pokeColletion.delegate = self
         filteredPokeList = pokeList
         searchBox.addTarget(self, action: #selector(HomeViewController.textChanged(_:)), for: .editingChanged)
         pokeCount.text = "\(filteredPokeList.count) pokémon(s) encontrado(s)"
-
+        
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -40,6 +41,13 @@ class HomeViewController: UIViewController, UICollectionViewDataSource {
         pokeCell.pokeImage.image = UIImage(named: pkShow.imagePath)
         
         return pokeCell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "detalhes") as! DetalhesViewController
+        self.present(controller, animated: true, completion: nil)
+        
     }
     
     @IBAction func textChanged(_ sender: Any) {

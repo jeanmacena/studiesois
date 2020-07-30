@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		464483EB24D339300088E3C9 /* pokemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 464483EA24D339300088E3C9 /* pokemon.png */; };
 		464483ED24D33D380088E3C9 /* HabilidadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464483EC24D33D380088E3C9 /* HabilidadesViewController.swift */; };
+		464483EF24D36AC10088E3C9 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464483EE24D36AC10088E3C9 /* DetalhesViewController.swift */; };
 		465AA16E24BD207B000A0B27 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 465AA16524BD207B000A0B27 /* 5.png */; };
 		465AA16F24BD207B000A0B27 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 465AA16624BD207B000A0B27 /* 6.png */; };
 		465AA17024BD207B000A0B27 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 465AA16724BD207B000A0B27 /* 8.png */; };
@@ -32,6 +33,7 @@
 /* Begin PBXFileReference section */
 		464483EA24D339300088E3C9 /* pokemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokemon.png; sourceTree = "<group>"; };
 		464483EC24D33D380088E3C9 /* HabilidadesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabilidadesViewController.swift; sourceTree = "<group>"; };
+		464483EE24D36AC10088E3C9 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
 		465AA16524BD207B000A0B27 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		465AA16624BD207B000A0B27 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		465AA16724BD207B000A0B27 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			children = (
 				46F95FEB24BCE49B004CE522 /* HomeViewController.swift */,
 				464483EC24D33D380088E3C9 /* HabilidadesViewController.swift */,
+				464483EE24D36AC10088E3C9 /* DetalhesViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				464483EF24D36AC10088E3C9 /* DetalhesViewController.swift in Sources */,
 				464483ED24D33D380088E3C9 /* HabilidadesViewController.swift in Sources */,
 				4673482624BD10DD007E69BD /* Pokemon.swift in Sources */,
 				46F95FD824BCE453004CE522 /* AppDelegate.swift in Sources */,
