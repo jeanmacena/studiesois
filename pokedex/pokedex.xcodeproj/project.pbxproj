@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		464483EB24D339300088E3C9 /* pokemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 464483EA24D339300088E3C9 /* pokemon.png */; };
 		465AA16E24BD207B000A0B27 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 465AA16524BD207B000A0B27 /* 5.png */; };
 		465AA16F24BD207B000A0B27 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 465AA16624BD207B000A0B27 /* 6.png */; };
 		465AA17024BD207B000A0B27 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 465AA16724BD207B000A0B27 /* 8.png */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		464483EA24D339300088E3C9 /* pokemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokemon.png; sourceTree = "<group>"; };
 		465AA16524BD207B000A0B27 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
 		465AA16624BD207B000A0B27 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
 		465AA16724BD207B000A0B27 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 		46F95FEF24BCF04B004CE522 /* asset */ = {
 			isa = PBXGroup;
 			children = (
+				464483EA24D339300088E3C9 /* pokemon.png */,
 				465AA16C24BD207B000A0B27 /* 1.png */,
 				465AA16D24BD207B000A0B27 /* 2.png */,
 				465AA16A24BD207B000A0B27 /* 3.png */,
@@ -214,6 +217,7 @@
 				465AA17124BD207B000A0B27 /* 4.png in Resources */,
 				46F95FE424BCE453004CE522 /* LaunchScreen.storyboard in Resources */,
 				465AA17424BD207B000A0B27 /* 9.png in Resources */,
+				464483EB24D339300088E3C9 /* pokemon.png in Resources */,
 				465AA17324BD207B000A0B27 /* 3.png in Resources */,
 				465AA17624BD207B000A0B27 /* 2.png in Resources */,
 				465AA16E24BD207B000A0B27 /* 5.png in Resources */,
