@@ -41,4 +41,9 @@ class DetalhesViewController: UIViewController {
 
     }
     
+    
+    @IBAction func btnVoltar(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 }
