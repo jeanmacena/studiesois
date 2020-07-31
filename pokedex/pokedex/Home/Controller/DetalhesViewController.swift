@@ -9,22 +9,36 @@
 import UIKit
 
 class DetalhesViewController: UIViewController {
+    
+    
+    @IBOutlet weak var pokeImage: UIImageView!
+    
+    @IBOutlet weak var pokeName: UILabel!
+    
+    @IBOutlet weak var pokeHabilidades: UILabel!
+    
+    @IBOutlet weak var pokeHP: UILabel!
+    
+    @IBOutlet weak var pokeAttack: UILabel!
+    
+    @IBOutlet weak var pokeDefense: UILabel!
+    
+    @IBOutlet weak var pokeKilo: UILabel!
+    
+    var pokeSelecionado:Pokemon? = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let poke = pokeSelecionado{
+            self.pokeImage.image = UIImage(named: poke.imagePath)
+            self.pokeName.text = "Nome: \(poke.name)"
+            self.pokeHabilidades.text = "Habilidades: \(poke.skill)"
+            self.pokeHP.text = "HP: \(poke.hp)"
+            self.pokeAttack.text = "Ataque: \(poke.attack)"
+            self.pokeDefense.text = "Defesa: \(poke.defense)"
+            self.pokeKilo.text = "Peso: \(poke.kilo)kg"
+        }
 
-        // Do any additional setup after loading the view.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }

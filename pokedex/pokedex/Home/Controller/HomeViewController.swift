@@ -44,8 +44,10 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let poke = filteredPokeList[indexPath.item]
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "detalhes") as! DetalhesViewController
+        controller.pokeSelecionado = poke
         self.present(controller, animated: true, completion: nil)
         
     }
