@@ -75,15 +75,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		4673482024BD0E52007E69BD /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				4673482224BD0E66007E69BD /* View */,
-				4673482124BD0E5C007E69BD /* Controller */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
 		4673482124BD0E5C007E69BD /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +106,7 @@
 			children = (
 				46F95FD624BCE453004CE522 /* pokedex */,
 				46F95FD524BCE453004CE522 /* Products */,
+				46F95FEF24BCF04B004CE522 /* asset */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,8 +124,8 @@
 				46F95FD724BCE453004CE522 /* AppDelegate.swift */,
 				46F95FD924BCE453004CE522 /* SceneDelegate.swift */,
 				4673481F24BD0E4B007E69BD /* Model */,
-				4673482024BD0E52007E69BD /* Home */,
-				46F95FEF24BCF04B004CE522 /* asset */,
+				4673482224BD0E66007E69BD /* View */,
+				4673482124BD0E5C007E69BD /* Controller */,
 				4673482724BD1171007E69BD /* DAO */,
 				46F95FDD24BCE453004CE522 /* Main.storyboard */,
 				46F95FE024BCE453004CE522 /* Assets.xcassets */,
