@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		461B9FB424E584980098350D /* PokeInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461B9FB324E584970098350D /* PokeInfo.swift */; };
 		464483EB24D339300088E3C9 /* pokemon.png in Resources */ = {isa = PBXBuildFile; fileRef = 464483EA24D339300088E3C9 /* pokemon.png */; };
 		464483ED24D33D380088E3C9 /* HabilidadesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464483EC24D33D380088E3C9 /* HabilidadesViewController.swift */; };
 		464483EF24D36AC10088E3C9 /* DetalhesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 464483EE24D36AC10088E3C9 /* DetalhesViewController.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		461B9FB324E584970098350D /* PokeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeInfo.swift; sourceTree = "<group>"; };
 		464483EA24D339300088E3C9 /* pokemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pokemon.png; sourceTree = "<group>"; };
 		464483EC24D33D380088E3C9 /* HabilidadesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabilidadesViewController.swift; sourceTree = "<group>"; };
 		464483EE24D36AC10088E3C9 /* DetalhesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalhesViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				4673482824BD11CC007E69BD /* PokeDAO.swift */,
+				461B9FB324E584970098350D /* PokeInfo.swift */,
 			);
 			path = DAO;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				46F95FD824BCE453004CE522 /* AppDelegate.swift in Sources */,
 				46F95FEE24BCE8DC004CE522 /* PokeCollectionViewCell.swift in Sources */,
 				4673482924BD11CC007E69BD /* PokeDAO.swift in Sources */,
+				461B9FB424E584980098350D /* PokeInfo.swift in Sources */,
 				46F95FDA24BCE453004CE522 /* SceneDelegate.swift in Sources */,
 				46F95FEC24BCE49B004CE522 /* HomeViewController.swift in Sources */,
 			);
