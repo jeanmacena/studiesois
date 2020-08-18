@@ -10,7 +10,7 @@ import Foundation
 
 
 // MARK: - Welcome
-struct Welcome: Codable {
+struct PokeDetails: Codable {
     let id: Int
     let name: String
     let order: Int
